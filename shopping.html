@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+       body{
+        height: 100px;
+        width: 100%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYarHvN3nSH7vOsmF5AeHdWg9WHsEBx1qkFZQ6wBguQpZVj5vEBKuN4ks&s=10);
+        border: radius 10px;;
+       
+       }
+        .nav_bar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: black;
+          color: white;
+          height: 75px;
+         margin-bottom: 10px;
+       
+        }
+        .right{
+            display: flex;
+           
+            width: 30%;
+            justify-content: space-evenly;
+        }
+        .hero{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 190px;
+            border-radius: 18px;
+            flex-direction: column;
+            background-color:black;
+            color: white;
+        }
+        .hero:hover{
+            background-color: white;
+            color: rgb(23, 19, 19);
+        }
+        button{
+            height: 30px;
+            padding: 3px;
+          background-color: orange;
+          border: none;
+          font-weight: bolder;
+          border-radius: 10px;
+         transition: all 2s;
+          
+        }
+        button:hover{
+             transform: scale(1.2);
+             background-color: rebeccapurple;
+             color: white;
+        }
+        .alpha{
+            height: 43px;
+            width: 15%;
+            border: 2px solid rgb(206, 197, 197);
+            box-shadow: 1px 1px 1px 1px white;
+            border-radius: 10px;
+            text-align: center;
+            font-size:x-large;
+            box-shadow:black;
+           align-items: center;
+           transition: all 2s;
+           background-color: rgb(173, 203, 149);
+           color: rgb(2, 2, 2);
+        }
+        .alpha:hover{
+            background-color: rgb(147, 135, 115);
+            color: black;
+            transform: scale(1.3);
+        }
+        .products{
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+
+        }
+        img{
+            height: 230px;
+            width: 230px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+            padding: 6px;
+            transition: all 2s;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+        .footer{
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+           
+            background-color: rgb(56, 50, 50);
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+           
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="nav_bar">
+        <div class="left">
+           <img src="https://images.seeklogo.com/logo-png/30/1/wow-logo-png_seeklogo-307690.png" alt="" style="width: 60px; height: 60px;">
+        </div>
+        <div class="right">
+          <button>SIGNUP</button>
+              <button>LOGIN</button>
+        </div>
+    </div>
+    <!-- hero section -->
+    <div class="hero">
+       <h1>WELCOME TO <span style="color: orange;">SHOPIFY</span>🧺</h1>
+       <button>SHOP NOW</button>
+    </div>
+    <br>
+    <center><div class="alpha"><B>PRODUCTS</B></div></center>
+    <br>
+    <div class="products">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_VV_dFhLb7Z9h7gM-lcAGb-6np4cmUxTZDaFJ8CU1qw&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvGIa_5nki6QlvGibMU-_wfGyv9N3n8qBdyFkGUwDFeA&s">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh_VW9elFbqnbOV_19xfcVggo_bvobZW0I_d-_8ylSGw&s=10">
+        <img src="https://www.orangetree.in/cdn/shop/files/Cavallo_DiningTable_1.jpg?v=1771393667&width=1800">
+        <img src="https://www.ikea.com/ext/ingkadam/m/66dd0f6aebfd945/original/PE975521.jpg?f=s">
+    </div>
+    <div class="footer">
+        <div class="site">
+            <h2>Shopify</h2>
+        </div>
+        <div class="category">
+            <h2>Category</h2>
+            <ul>
+                <li>Electronics</li>
+                <li>Furnitures</li>
+                <li>Fashion</li>
+                <li>Kitchen</li>
+            </ul>
+        </div>
+        <div class="address">
+            <h2>Contact No</h2>
+            <p><b>+91 9494582345</b></p>
+            <p><b>Benguluru, KA</b></p>
+        </div>
+    </div>
+</body>
+</html>
